@@ -8,8 +8,8 @@ class User
   end
 end
 
-user1 = User.new
-user = File.new('user.txt', 'w')
+user = User.new
+user_file = File.new('user.txt', 'w')
 
 user.write("Информация о пользователе:\n")
 user.write("Фамилия и имя пользователя: #{user1.fio}\n")
