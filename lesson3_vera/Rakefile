@@ -1,0 +1,7 @@
+desc 'Задача по умолчанию'
+task default: :today
+
+desc 'Вывод текущей даты'
+task :today do
+  puts Time.new.strftime('Текущая дата: %d %B %Y %k:%M (UTC %:z)')
+end
