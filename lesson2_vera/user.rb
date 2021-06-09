@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class User
   def fio
     'Иван Иванов'
@@ -8,8 +10,8 @@ class User
   end
 end
 
-user1 = User.new
+user = User.new
 
 puts 'Информация о пользователе:'
-puts "Фамилия и имя пользователя: #{user1.fio}"
-puts "Профессия: #{user1.profession}"
+puts "Фамилия и имя пользователя: #{user.fio}"
+puts "Профессия: #{user.profession}"

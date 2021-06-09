@@ -1,14 +1,12 @@
-class User
-end
+# frozen_string_literal: true
 
-class Computer
-end
+class User; end
 
-class Network
-end
+class Computer; end
 
-class Host
-end
+class Network; end
+
+class Host; end
 
 user = User.new
 computer = Computer.new

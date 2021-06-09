@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Ticket
   def date
     '27.10.2021'
