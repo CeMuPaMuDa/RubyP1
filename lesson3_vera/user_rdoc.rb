@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ##
 # Класс, создающий пользователя
 class User
@@ -11,6 +13,7 @@ class User
   def fio
     'Иван Иванов'
   end
+
   ##
   # Выводит в стандартный вывод строку профассию пользователя
   #
@@ -26,5 +29,5 @@ end
 user = User.new
 
 puts 'Информация о пользователе:'
-puts "Фамилия и имя пользователя: #{user1.fio}"
-puts "Профессия: #{user1.profession}"
+puts "Фамилия и имя пользователя: #{user.fio}"
+puts "Профессия: #{user.profession}"
