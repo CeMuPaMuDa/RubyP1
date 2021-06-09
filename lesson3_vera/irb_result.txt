@@ -1,0 +1,8 @@
+Результат выполнения irb:
+
+PS C:\Users\Vera> irb
+irb(main):001:0> a=87220*356782
+=> 31118526040
+irb(main):002:0> a.class
+=> Integer
+irb(main):003:0> exit
