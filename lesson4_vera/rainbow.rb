@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-colors = {
+COLORS = {
   red: 'красный',
   orange: 'оранжевый',
   yellow: 'желтый',
@@ -8,7 +8,7 @@ colors = {
   blue: 'голубой',
   indigo: 'синий',
   violet: 'фиолетовый'
-}
+}.freeze
 
-puts "Ключи: #{colors.keys.join(', ')}"
-puts "Значения: #{colors.values.join(', ')}"
+puts "Ключи: #{COLORS.keys.join(', ')}"
+puts "Значения: #{COLORS.values.join(', ')}"
