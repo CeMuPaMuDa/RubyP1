@@ -16,10 +16,12 @@ class User
 
   attr_reader :name, :surname, :patronymic
 end
+puts "Всего пользователей: #{User.counter}"
 
 student = User.new('Збитнева', 'Вера', 'Аркадиевна')
 puts "#{student.surname} #{student.name} #{student.patronymic}"
+puts "Всего пользователей: #{User.counter}"
+
 teacher = User.new('Симидянов', 'Игорь', 'Вячеславович')
 puts "#{teacher.surname} #{teacher.name} #{teacher.patronymic}"
-
 puts "Всего пользователей: #{User.counter}"
