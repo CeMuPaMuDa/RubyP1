@@ -33,5 +33,5 @@ all_auto.each do |x|
     -------------------------------------
 HERE
   puts z
-  File.write('./lesson5_vera/2/cars.txt', $stdout.string)
+  File.write('./lesson5_vera/cars.txt', $stdout.string)
 end
