@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 puts "Колличество элементов в массиве -  #{$LOAD_PATH.size} : "
 
