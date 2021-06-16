@@ -13,5 +13,6 @@ teacher = User.new
 teacher.surname = 'Симидянов'
 teacher.name = 'Игорь'
 teacher.patronymic = 'Вячеславович'
+
 puts "#{teacher.surname} #{teacher.name} #{teacher.patronymic}"
 puts "#{student.surname} #{student.name} #{student.patronymic}"
