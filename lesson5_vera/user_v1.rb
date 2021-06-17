@@ -23,7 +23,7 @@ student.my_patronymic('Аркадиевна')
 puts "#{student.surname} #{student.name} #{student.patronymic}"
 
 teacher = User.new
-teacher.my_surname('Симидянов')
+teacher.my_surname('Симдянов')
 teacher.my_name('Игорь')
 teacher.my_patronymic('Вячеславович')
 puts "#{teacher.surname} #{teacher.name} #{teacher.patronymic}"

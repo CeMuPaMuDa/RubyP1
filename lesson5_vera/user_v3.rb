@@ -10,7 +10,7 @@ student.name = 'Вера'
 student.patronymic = 'Аркадиевна'
 
 teacher = User.new
-teacher.surname = 'Симидянов'
+teacher.surname = 'Симдянов'
 teacher.name = 'Игорь'
 teacher.patronymic = 'Вячеславович'
 

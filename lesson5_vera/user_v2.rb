@@ -13,5 +13,5 @@ end
 student = User.new('Збитнева', 'Вера', 'Аркадиевна')
 puts "#{student.surname} #{student.name} #{student.patronymic}"
 
-teacher = User.new('Симидянов', 'Игорь', 'Вячеславович')
+teacher = User.new('Симдянов', 'Игорь', 'Вячеславович')
 puts "#{teacher.surname} #{teacher.name} #{teacher.patronymic}"

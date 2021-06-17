@@ -22,6 +22,6 @@ student = User.new('Збитнева', 'Вера', 'Аркадиевна')
 puts "#{student.surname} #{student.name} #{student.patronymic}"
 puts "Всего пользователей: #{User.counter}"
 
-teacher = User.new('Симидянов', 'Игорь', 'Вячеславович')
+teacher = User.new('Симдянов', 'Игорь', 'Вячеславович')
 puts "#{teacher.surname} #{teacher.name} #{teacher.patronymic}"
 puts "Всего пользователей: #{User.counter}"
