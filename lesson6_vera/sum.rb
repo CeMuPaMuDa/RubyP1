@@ -1,0 +1,1 @@
+p ARGV.map { |q| q.to_i }.sum
