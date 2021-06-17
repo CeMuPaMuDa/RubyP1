@@ -29,7 +29,7 @@ all_auto.each do |x|
       Тип : #{x.type}
       Модель: #{x.car_brand} #{x.car_model}
       Цвет: #{x.color}
-      Ценна : #{x.price} USD
+      Цена : #{x.price} USD
     -------------------------------------
 HERE
   puts z
