@@ -18,5 +18,4 @@ class Hello
   end
 end
 
-what_time = Hello.new(Time.new.hour)
-puts what_time.say_hello
+

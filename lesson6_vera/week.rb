@@ -1,6 +1,12 @@
 # frozen_string_literal: true
 
-require_relative 'lib/day_of_week'
+MONDAY = 'Понедельник'
+TUESDAY = 'Вторник'
+WEDNESDAY = 'Среда'
+THURSDAY = 'Четверг'
+FRIDAY = 'Пятница'
+SATURDAY = 'Суббота'
+SUNDAY = 'Воскресенье'
 
 WEEK = [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY].freeze
 
