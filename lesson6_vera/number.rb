@@ -1,9 +1,12 @@
 # frozen_string_literal: true
 
-z = ARGV.join.to_i
-p z
-if z.even?
-  puts 'Введено четное число'
-else
-  puts 'Введено нечетное число'
+def odd_or_even(x)
+  if x.even?
+    puts "Введено четное число #{x}"
+  else
+    puts "Введено нечетное число #{x}"
+  end
 end
+
+z = ARGV.map(&:to_i)
+z.each { |n| odd_or_even(n) }
