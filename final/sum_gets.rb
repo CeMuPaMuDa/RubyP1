@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 f = gets.chomp
 f = f.split(' ')
 
