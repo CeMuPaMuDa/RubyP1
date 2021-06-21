@@ -17,5 +17,3 @@ class Hello
     end
   end
 end
-
-
