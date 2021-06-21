@@ -8,3 +8,5 @@ Style/Documentation:
   Enabled: false
 Naming/MethodParameterName:
   Enabled: false
+Naming/PredicateName:
+  Enabled: false
