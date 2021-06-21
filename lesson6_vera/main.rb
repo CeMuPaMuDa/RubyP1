@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/hello'
 
 what_time = Hello.new(Time.new.hour)
