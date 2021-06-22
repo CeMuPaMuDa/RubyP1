@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Style/ClassVars
 class User
   @@counter = 0
 
@@ -13,7 +14,7 @@ class User
   def self.counter
     @@counter
   end
-
+  # rubocop:enable Style/ClassVars
   attr_reader :name, :surname, :patronymic
 end
 puts "Всего пользователей: #{User.counter}"
