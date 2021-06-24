@@ -8,7 +8,7 @@ def odd_or_even(x)
     "Введено четное число #{x}"
   else
     "Введено нечетное число #{x}"
-  end5
+  end
 end
 
 puts odd_or_even(number)
