@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'date'
-require_relative 'lib/month_day_count'
 
 def find_age(birthday)
   birth_date, birth_month, birth_year = *birthday
