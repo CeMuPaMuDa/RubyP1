@@ -1,23 +1,17 @@
 # frozen_string_literal: true
 
 require 'date'
-print 'Введите дату рождения в формате ДД.ММ.ГГГГ: '
+require_relative 'lib/month_day_count'
 
-birthday = gets.chomp.split('.').map(&:to_i)
-birth_date, birth_month, birth_year = *birthday
-
-current_date = Date.today.day
-current_month = Date.today.month
-current_year = Date.today.year
-
-def find_age(current_date, current_month, current_year,
-             birth_date, birth_month, birth_year)
-
-  month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+def find_age(birthday)
+  birth_date, birth_month, birth_year = *birthday
+  current_date = Date.today.day
+  current_month = Date.today.month
+  current_year = Date.today.year
 
   if birth_date > current_date
     current_month -= 1
-    current_date += month[birth_month - 1]
+    current_date += MONTH[birth_month - 1]
   end
   if birth_month > current_month
     current_year -= 1
@@ -38,5 +32,7 @@ def find_age(current_date, current_month, current_year,
   end
 end
 
-find_age(current_date, current_month, current_year,
-         birth_date, birth_month, birth_year)
+print 'Введите дату рождения в формате ДД.ММ.ГГГГ: '
+birthday = gets.chomp.split('.').map(&:to_i)
+
+find_age(birthday)
