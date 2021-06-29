@@ -1,4 +1,6 @@
-require_relative '../lib/calendar.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/calendar'
 
 print 'Введите год, который хотите проверить: '
 year = Calendar.new
