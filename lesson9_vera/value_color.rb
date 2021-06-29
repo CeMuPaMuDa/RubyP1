@@ -1,0 +1,1 @@
+require_relative '../lib/const_arr'
