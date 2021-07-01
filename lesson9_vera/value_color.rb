@@ -19,6 +19,6 @@ def num_color(value)
 end
 
 print 'Введите цвет радуги: '
-input = gets.chomp
+input = gets.chomp.downcase
 
 puts num_color(input)
