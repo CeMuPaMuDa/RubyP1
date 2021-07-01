@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/mathem_op'
 
 print 'Номер элемента ряда Фибоначчи: '

@@ -12,4 +12,3 @@ COLORS = {
 
 puts "Ключи: #{COLORS.keys.join(', ')}"
 puts "Значения: #{COLORS.values.join(', ')}"
-
