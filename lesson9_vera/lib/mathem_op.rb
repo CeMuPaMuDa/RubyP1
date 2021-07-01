@@ -5,5 +5,9 @@ class MathemathicsOperations
     param.flatten.sum
   end
 
-  def convert(multiplier:, value:); end
+def fibonacci(num)
+  return 0 if num == 1
+  return 1 if num == 2 || num == 3
+  fibonacci(num - 1) + fibonacci(num - 2)
+end
 end
