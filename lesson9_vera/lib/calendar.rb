@@ -7,5 +7,4 @@ class Calendar
     modulo400 = (year % 400).zero?
     modulo4 && !modulo100 || modulo4 && modulo100 && modulo400
   end
-
 end

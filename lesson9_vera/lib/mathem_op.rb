@@ -5,7 +5,5 @@ class MathemathicsOperations
     param.flatten.sum
   end
 
-def convert(multiplier:, value:)
-  
-end
+  def convert(multiplier:, value:); end
 end
