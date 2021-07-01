@@ -10,4 +10,5 @@ def fibonacci(num)
   return 1 if num == 2 || num == 3
   fibonacci(num - 1) + fibonacci(num - 2)
 end
+
 end

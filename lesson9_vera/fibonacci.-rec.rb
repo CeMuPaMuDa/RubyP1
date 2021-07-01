@@ -1,6 +1,6 @@
 require_relative 'lib/mathem_op'
 
-print 'Введите число: '
+print 'Номер элемента ряда Фибоначчи: '
 fib = gets.to_i
 
-puts MathemathicsOperations.new.fibonacci(fib)
+puts "Значение: #{MathemathicsOperations.new.fibonacci(fib)}"
