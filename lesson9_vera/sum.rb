@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../lib/mathem_op'
+require_relative 'lib/mathem_op'
 
 result = MathemathicsOperations.new
 
