@@ -3,7 +3,7 @@
 require_relative '../lib/user'
 
 user = User.new
-user_file = File.new('user.txt', 'w')
+user_file = File.new('../doc/user.txt', 'w')
 
 user_file.write("Информация о пользователе:\n")
 user_file.write("Фамилия и имя пользователя: #{user.fio}\n")
