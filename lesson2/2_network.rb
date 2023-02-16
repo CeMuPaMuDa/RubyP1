@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 %w[user computer network host].each do |f|
   require_relative "../lib/#{f}"
 end

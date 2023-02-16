@@ -1,14 +1,6 @@
 # frozen_string_literal: true
 
-class User
-  def fio
-    'Иван Иванов'
-  end
-
-  def profession
-    'учитель'
-  end
-end
+require_relative '../lib/user'
 
 user = User.new
 user_file = File.new('user.txt', 'w')
