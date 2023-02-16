@@ -1,4 +1,5 @@
 # Ruby-part1
-# Zbitnjeva Vera:
-
-My ruby version(win10): ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x64-mingw32]
+# Zbitnjeva Vira:
+```
+ruby 3.2.0 (2022-12-25 revision a528908271) [x86_64-linux]
+```
