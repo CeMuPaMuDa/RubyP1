@@ -2,6 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem 'i18n', '~> 1.12'
+gem 'i18n'
 
 # gem "rails"

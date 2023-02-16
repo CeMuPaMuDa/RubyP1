@@ -9,7 +9,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  i18n (~> 1.12)
+  i18n
 
 BUNDLED WITH
    2.4.7
