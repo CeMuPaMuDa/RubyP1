@@ -1,12 +1,7 @@
 # frozen_string_literal: true
-
-class User; end
-
-class Computer; end
-
-class Network; end
-
-class Host; end
+%w[user computer network host].each do |f|
+  require_relative "../lib/#{f}"
+end
 
 user = User.new
 computer = Computer.new
